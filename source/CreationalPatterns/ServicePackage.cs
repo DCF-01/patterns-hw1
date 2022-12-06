@@ -9,6 +9,8 @@ public class ServicePackage : BasePackage
 {
     /// <summary>
     /// Services that are contained within the <see cref="ServicePackage"/> object.
+    /// Cannot be accessed outside class, only through add/remove
+    /// and private constructor when cloning
     /// </summary>
     private HashSet<IService> Services { get; set; }
 
@@ -27,7 +29,7 @@ public class ServicePackage : BasePackage
     /// </summary>
     /// <param name="packageName"></param>
     /// <param name="services"></param>
-    public ServicePackage(string packageName, HashSet<IService> services)
+    private ServicePackage(string packageName, HashSet<IService> services)
     {
         Name = packageName;
         Services = services;
@@ -54,7 +56,9 @@ public class ServicePackage : BasePackage
         if (removedServices > 0)
         {
             Console.WriteLine($"Removed service of type {type.Name}.");
+            return;
         }
+        Console.WriteLine($"No service of type {type.Name} found.");
     }
 
     /// <summary>

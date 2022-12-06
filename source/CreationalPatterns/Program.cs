@@ -56,9 +56,11 @@ sp3.ListServices(1);
 sp2.Add(dataSvc);
 sp2.Add(dataSvc);
 //no changes in service package 2
+Console.WriteLine("Service Package 2");
 sp2.ListServices(1);
 
 //we dont keep Ids, so we only remove and add services based on Type
+sp2.Remove(typeof(DataService));
 sp2.Remove(typeof(DataService));
 //service package 2 now only contains the voice service
 Console.WriteLine("Service Package 2");
