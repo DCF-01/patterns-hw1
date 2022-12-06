@@ -38,10 +38,12 @@ factory.Add(sp3);
 
 //list service 1 and 3 to see if only the 3rd changes
 //the result has change for sp1 as we changed its properties above
+Console.WriteLine("ServicePackage 1 has changed pricing due to changes to Maxdl and Maxup");
 sp1.ListServices(1);
 
 //check cloned object result
 //sp3 will have the same result
 //as the original sp1 as the value types were copied from it
+Console.WriteLine("ServicePackage 3 is the same as the object it was cloned from (ServicePackage 1)");
 sp3.ListServices(1);
 
