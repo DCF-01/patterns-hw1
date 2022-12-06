@@ -1,0 +1,15 @@
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\bin\Debug\net6.0\CreationalPatterns.exe
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\bin\Debug\net6.0\CreationalPatterns.deps.json
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\bin\Debug\net6.0\CreationalPatterns.runtimeconfig.json
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\bin\Debug\net6.0\CreationalPatterns.dll
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\bin\Debug\net6.0\CreationalPatterns.pdb
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\obj\Debug\net6.0\CreationalPatterns.csproj.AssemblyReference.cache
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\obj\Debug\net6.0\CreationalPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\obj\Debug\net6.0\CreationalPatterns.AssemblyInfoInputs.cache
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\obj\Debug\net6.0\CreationalPatterns.AssemblyInfo.cs
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\obj\Debug\net6.0\CreationalPatterns.csproj.CoreCompileInputs.cache
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\obj\Debug\net6.0\CreationalPatterns.dll
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\obj\Debug\net6.0\refint\CreationalPatterns.dll
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\obj\Debug\net6.0\CreationalPatterns.pdb
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\obj\Debug\net6.0\CreationalPatterns.genruntimeconfig.cache
+C:\Users\rzver\faks\design_patterns\hw1\source\CreationalPatterns\CreationalPatterns\obj\Debug\net6.0\ref\CreationalPatterns.dll
