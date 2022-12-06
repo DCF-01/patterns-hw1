@@ -25,7 +25,9 @@ factory.Add(sp1);
 factory.Add(sp2);
 
 //print results to console
+Console.WriteLine("Service Package 1");
 sp1.ListServices(1);
+Console.WriteLine("Service Package 2");
 sp2.ListServices(1);
 
 //clone a service, and check if result is identical to original object
@@ -46,4 +48,19 @@ sp1.ListServices(1);
 //as the original sp1 as the value types were copied from it
 Console.WriteLine("ServicePackage 3 is the same as the object it was cloned from (ServicePackage 1)");
 sp3.ListServices(1);
+
+//we try to add 2 data service objects
+//if the service package contains a svc of that Type
+//it will not be added
+//only unique services are added
+sp2.Add(dataSvc);
+sp2.Add(dataSvc);
+//no changes in service package 2
+sp2.ListServices(1);
+
+//we dont keep Ids, so we only remove and add services based on Type
+sp2.Remove(typeof(DataService));
+//service package 2 now only contains the voice service
+Console.WriteLine("Service Package 2");
+sp2.ListServices(1);
 
